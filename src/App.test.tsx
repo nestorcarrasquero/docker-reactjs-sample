@@ -6,7 +6,7 @@ describe("App Component", () => {
     render(<App />);
 
     expect(screen.getByAltText("Vite logo")).toBeInTheDocument();
-    expect(screen.getByAltText("React logo")).toBeInTheDocument();
+    expect(screen.getByAltText("React logo modificado")).toBeInTheDocument();
     expect(screen.getByText(/Vite \+ React/i)).toBeInTheDocument();
   });
 
